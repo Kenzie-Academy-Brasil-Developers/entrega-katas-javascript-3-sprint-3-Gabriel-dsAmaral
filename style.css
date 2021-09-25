@@ -1,0 +1,16 @@
+body{
+    background-color: #00002e;
+}
+
+h1 {
+    color: white;
+}
+
+li {
+color:aliceblue;
+list-style: none;
+margin-bottom: 15px;
+margin-left: -35px;
+display: flex;
+flex-direction: column;
+}
