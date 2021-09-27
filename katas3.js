@@ -224,9 +224,9 @@ function kata16() {
 showResults(kata16())
 
 function kata17() {
-    let x = 9999999999999999
+    let x = sampleArray[0]
     for (let a = 0; a < sampleArray.length; a++) {
-if (sampleArray[a] < x) {
+if (sampleArray[a] <= x) {
     x = sampleArray[a]
 }
     }
@@ -236,9 +236,9 @@ if (sampleArray[a] < x) {
 showResults(kata17())
 
 function kata18() {
-    let x = 0
+    let x = sampleArray[0]
     for (let a = 0; a < sampleArray.length; a++) {
-if (sampleArray[a] > x) {
+if (sampleArray[a] >= x) {
     x = sampleArray[a]
 }
     }
